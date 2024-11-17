@@ -3,6 +3,7 @@ import './App.css'
 import NestedComponents from './components/nested-comments'
 import FormWithValidation from './components/form-with-validation'
 import TransferableLlist from './components/transferable-list'
+import ProgressBar from './components/progerss-bar'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,8 +17,11 @@ function App() {
         <FormWithValidation/>
      </div> */}
 
-<h1>Transferable List</h1>
-        <TransferableLlist/>
+      <h1>Progress Bar</h1>
+        <ProgressBar/>
+
+{/* <h1>Transferable List</h1>
+        <TransferableLlist/> */}
      </div>
     </>
   )
