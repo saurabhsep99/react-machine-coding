@@ -6,6 +6,7 @@ import TransferableLlist from './components/transferable-list'
 import ProgressBar from './components/progerss-bar'
 import CustomTabs from './components/custom-tabs'
 import ProductFilterApp from './components/product-filter-app'
+import DebounceInput from './components/debounce-input'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,10 +31,16 @@ function App() {
 
   
 
-     <h1>Product Filter</h1>
+     {/* <h1>Product Filter</h1>
      <ProductFilterApp/>
-     </div>
+      */}
 
+
+
+     <h1>Debounce Input Box</h1>
+      <DebounceInput/>
+
+     </div>
     </>
   )
 }
