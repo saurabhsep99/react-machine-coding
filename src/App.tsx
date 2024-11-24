@@ -5,6 +5,7 @@ import FormWithValidation from './components/form-with-validation'
 import TransferableLlist from './components/transferable-list'
 import ProgressBar from './components/progerss-bar'
 import CustomTabs from './components/custom-tabs'
+import ProductFilterApp from './components/product-filter-app'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,10 +25,15 @@ function App() {
 {/* <h1>Transferable List</h1>
         <TransferableLlist/> */}
 
-<h1>Custom Tabs</h1>
-        <CustomTabs/>
+{/* <h1>Custom Tabs</h1>
+        <CustomTabs/> */}
 
+  
+
+     <h1>Product Filter</h1>
+     <ProductFilterApp/>
      </div>
+
     </>
   )
 }

@@ -1,0 +1,17 @@
+ [
+    {"name": "Sonata 3211", "category": "watch"},
+    {"name": "Samsung QLED", "category": "television"},
+    {"name": "Apple iPhone 13", "category": "mobile"},
+    {"name": "Gucci Handbag", "category": "bags"},
+    {"name": "Fossil Grant", "category": "watch"},
+    {"name": "LG OLED TV", "category": "television"},
+    {"name": "OnePlus 9 Pro", "category": "mobile"},
+    {"name": "Prada Backpack", "category": "bags"},
+    {"name": "Timex Weekender", "category": "watch"},
+    {"name": "Sony Bravia", "category": "television"},
+    {"name": "Google Pixel 6", "category": "mobile"},
+    {"name": "Chanel Tote", "category": "bags"},
+    {"name": "Citizen BM8475", "category": "watch"},
+    {"name": "Vizio Smart TV", "category": "television"},
+    {"name": "Samsung Galaxy S22", "category": "mobile"}
+  ]
