@@ -7,6 +7,7 @@ import ProgressBar from './components/progerss-bar'
 import CustomTabs from './components/custom-tabs'
 import ProductFilterApp from './components/product-filter-app'
 import DebounceInput from './components/debounce-input'
+import ChessBoard from './components/chess-board'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,9 +38,11 @@ function App() {
 
 
 
-     <h1>Debounce Input Box</h1>
-      <DebounceInput/>
+     {/* <h1>Debounce Input Box</h1>
+      <DebounceInput/> */}
 
+      <h1>Chess Board</h1>
+      <ChessBoard/>
      </div>
     </>
   )
