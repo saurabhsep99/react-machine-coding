@@ -21,6 +21,8 @@ const SelectableGrid = () => {
     const [matrix, setMatrix] = useState([]);
    const [selected,setSelected]=useState([]);
     const [boundry,setBoundry]=useState([]);
+    const [start,setStart]=useState([]);
+    const [end,setEnd]=useState([])
 
 
     useEffect(() => {
@@ -38,16 +40,23 @@ const handleMouseDown=(pos)=>{
     setSelected(true)
     let firstSelectedOption=pos.join('');
     setBoundry([firstSelectedOption])
+    setStart(firstSelectedOption)
 }
 
 const createBoundry=(pos)=>{
-    let maxRowa= pos/10;
-    let maxColumns=pos%10;
+    let rows= parseInt(pos/10);
+    let columns=parseInt(pos%10);
     let newPosArr=[]
+    
+    let firstRow=parseInt(start/10);
+    let firstCol=parseInt(start%10);
+    let minRows=Math.min(firstRow,rows);
+    let minColumns=Math.min(firstCol,columns)
 
-    for(let i=0;i<=maxRowa;i++){
+    debugger
+    for(let i=minRows;i<=rows;i++){
         {
-            for(let j=0;j<=maxColumns;j++){
+            for(let j=minColumns;j<=columns;j++){
                 newPosArr.push(`${i}${j}`)
             }
 
